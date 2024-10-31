@@ -1,0 +1,127 @@
+/* .video_logo {
+  display: flex;  Sử dụng flexbox để đặt các phần tử ngang hàng 
+  justify-content: flex-end; Đẩy các phần tử về bên phải 
+  align-items: center;  Căn giữa các phần tử theo chiều dọc 
+  position: relative;  Container tương đối với các phần tử bên trong 
+  padding: 10px;  Tạo khoảng cách bên trong container nếu cần 
+  text-align: center;
+}
+video {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10rem;
+  margin-left: 4rem;
+  top: 10px;
+  right: 10px;
+  display: block;
+  border-radius: 46px;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;  Điều chỉnh vị trí theo ý muốn 
+  right: 10px;  Điều chỉnh vị trí theo ý muốn 
+  width: 100px;  Kích thước logo 
+  height: auto;  Giữ tỉ lệ 
+} */
+/* body {
+  background-image: url(anh_nen.jpg);
+  background-repeat: no-repeat; */
+/* background-attachment: fixed;
+  background-size: cover; đặt ảnh thành hình nền bảo phủ toàn bộ */
+/* } */
+body {
+  overflow-y: hidden;
+}
+/* a:link,
+a:visited {
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover,
+a:active {
+  background-color: chartreuse;
+} */
+
+.em {
+  width: 19rem; /* Ảnh phủ kín chiều ngang khung */
+  height: 41rem; /* Ảnh phủ kín chiều cao khung */
+  object-fit: cover; /* Đảm bảo ảnh không bị biến dạng */
+  position: absolute;
+  top: 20.5rem;
+  left: 20.5rem;
+  border-radius: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+th {
+  height: 20px;
+  text-align: right;
+  border-style: none;
+}
+.pin {
+  font-family: "Arial", sans-serif;
+  font-size: 10px;
+}
+img {
+  width: 10px;
+  height: 15px;
+}
+
+table {
+  width: 19rem;
+  height: 41rem;
+  position: relative;
+  top: 20rem;
+  left: 20rem;
+  /* background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; */
+}
+/* .gio {
+  text-align: center;
+  height: 10px;
+  width: 6rem;
+  background-color: aqua;
+} */
+
+td {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-style: none;
+}
+
+.giao_dien {
+  display: flex;
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: space-between; /* Căn đều khoảng cách giữa các phần tử */
+  width: 100%; /* Chiều rộng của container */
+  max-width: 600px; /* Chiều rộng tối đa */
+  margin: 0 auto; /* Căn giữa container */
+}
+.giao_dien span,
+.giao_dien .pin {
+  flex: 1;
+  text-align: center;
+}
+.giao_dien img {
+  max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước của phần tử */
+  height: auto; /* Giữ tỷ lệ hình ảnh */
+}
+/* th:first-of-type:hover {
+  background-color: aqua;
+} */
+.camera {
+  width: 10pxs;
+}
